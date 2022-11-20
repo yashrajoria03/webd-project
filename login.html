@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <video
+        src="images/videoplayback.mp4"
+        autoplay
+        muted
+        loop
+        id="vid"
+        class="vid"
+      ></video>
+    </div>
+    <div class="content-container">
+      <div class="form-container">
+        <form id="frm" onsubmit="event.preventDefault();" autocomplete="off">
+          <h1>Login</h1>
+          <div id="mssg" class="hide">Login Successful!</div>
+          <span class="subtitle">USERNAME:</span>
+          <br />
+          <input type="text" name="username" value="" />
+          <br />
+          <span class="subtitle">PASSWORD:</span>
+          <br />
+          <input type="password" name="password" value="" />
+          <br /><br />
+          <input type="submit" value="SUBMIT" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="login.js"></script>
+</html>

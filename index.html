@@ -1,178 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" />
-
-</head>
-
-<body>
-  <section class="header">
-    <nav>
-      <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-      <div class="nav-links" id="navLinks">
-        <i class="fas fa-times" onclick="hidemenu()"></i>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="location.html">LOCATION</a></li>
-          <li><a href="">SCORE</a></li>
-          <li><a href=""><button> SIGN IN</button></a></li>
-        </ul>
+  <body>
+    <section class="header">
+      <!-- <img src="images/bg1.jpg" alt="" style="object-fit: contain;display: ;"  /> -->
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="location.html">LOCATION</a></li>
+            <li><a href="">SCORE</a></li>
+            <li>
+              <a href="login.html"><button id="username">SIGN IN</button></a>
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Parking 24</h1>
+        <p>
+          <strong>Go Easy Parking With Us....</strong>
+        </p>
+        <a href="" class="hero-btn">Visit Us To know More</a>
       </div>
-      <i class="fas fa-bars" onclick="showmenu()"></i>
-    </nav>
-    <div class="text-box">
-      <h1>Parking 24</h1>
+    </section>
+    <!-- ---------Course---------- -->
+    <section class="course">
+      <h1>Services We Offer</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Real-time data and insights of parking lots</h3>
+          <p>
+            One of the greatest reasons to adopt the parking 24 management
+            system is to track the real-time data and the insights of parking
+            car lots. Over time, smart parking solutions can produce real-time
+            data, which uncovers correlations and the insights of users and car
+            parking lots
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Reliable communication mode</h3>
+          <p>
+            This helps to solve the problems of the driver while finding the
+            parking space. <br />
+            Technical support <br />
+            Notifications via messaging
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Easy to access navigation</h3>
+          <p>
+            Parking 24 has a GPS tracking system that assists the user to easily
+            find a parking space. , they have a street parking map to make it as
+            simple as possible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------campus------------ -->
+
+    <section class="campus">
+      <h1>Our Team Members</h1>
+      <p>Some of our Head Quarters around the Globe</p>
+      <div class="teamContainer">
+        <div class="div">
+          <img src="images/user.png" alt="user" id="user1" />
+          <label for="user1">Yash Rajoria</label>
+        </div>
+        <div>
+          <img src="images/user.png" alt="user" id="user2" />
+          <label for="user2">Pragun Bansal</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="../hackathon/images/ayush.jpg" alt="" />
+          <div class="layer">
+            <h3>Ayush Jain</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../hackathon/images/harshitg.jpg" alt="" />
+          <div class="layer">
+            <h3>Harshit Gupta</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../hackathon/images/satwik.jpg" alt="" />
+          <div class="layer">
+            <h3>Satwik Shrivastava</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../hackathon/images/harshitm.jpg" alt="" />
+          <div class="layer">
+            <h3>Harshit Mehndiratta</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------testimonials----------------- -->
+    <section class="testimonials">
+      <h1>What our User Says</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.jpg" alt="" />
+          <div>
+            <p>
+              So easy and quick to use. Helpful reminders. Gives you all options
+              of parking duration. Love it.
+            </p>
+            <h3>Christine Berley</h3>
+            <i>⭐</i>
+            <i>⭐</i>
+            <i>⭐</i>
+            <i>⭐</i>
+            <i>⭐</i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user2.jpg" alt="" />
+          <div>
+            <p>Fast and accurate, easy to use</p>
+            <h3>David Byer</h3>
+            <i>⭐</i>
+            <i>⭐</i>
+            <i>⭐</i>
+            <i>⭐</i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------Call To Action----------------- -->
+
+    <section class="cta">
+      <h1>
+        Are you a parking operator? <br />
+        Would you like to promote your car parks and reach new customers?
+      </h1>
+      <a class="hero-btn" href="">CONTACT US</a>
+    </section>
+
+    <!-- ------------footer----------------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
       <p>
-        <strong>Go Easy Parking With Us....</strong> 
+        Parking 24 allows drivers to find the closest parking to their
+        destination, tells them how much it will cost and whether the space is
+        available.... which means no more driving around looking for parking!
       </p>
-      <a href="" class="hero-btn">Visit Us To know More</a>
-    </div>
-  </section>
-  <!-- ---------Course---------- -->
-  <section class="course">
-    <h1>Services We Offer</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <div class="row">
-      <div class="course-col">
-        <h3>Real-time data and insights of parking lots</h3>
-        <p>
-            One of the greatest reasons to adopt the parking 24 management system is to track the real-time data and the insights of parking car lots. Over time, smart parking solutions can produce real-time data, which uncovers correlations and the insights of users and car parking lots
-        </p>
+      <div class="icons">
+        <i class="fas fa-facebook"></i>
+        <i class="fas fa-twitter"></i>
+        <i class="fas fa-instagram"></i>
+        <i class="fas fa-linkedin"></i>
       </div>
-      <div class="course-col">
-        <h3>Reliable communication mode</h3>
-        <p>
-            This helps to solve the problems of the driver while finding the parking space. <br> 1.) Technical support
-            <br> 2.)Notifications via messaging
-        </p>
-      </div>
-      <div class="course-col">
-        <h3>Easy to access navigation</h3>
-        <p>
-            Parking 24 has a GPS tracking system that assists the user to easily find a parking space. , they have a street parking map to make it as simple as possible.
-        </p>
-      </div>
-    </div>
-  </section>
+      <p>Made By Team Fantastic4</p>
+    </section>
 
-  <!-- ----------campus------------ -->
+    <!-- ---------JavaScript for toggle menu----------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
 
-  <section class="campus">
-    <h1>Our Team Members</h1>
-    <p>Some of our Head Quarters around the Globe</p>
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
 
-    <div class="row">
-      <div class="campus-col">
-        <img src="../hackathon/images/ayush.jpg" alt="" />
-        <div class="layer">
-          <h3>Ayush Jain</h3>
-        </div>
-      </div>
-      <div class="campus-col">
-        <img src="../hackathon/images/harshitg.jpg" alt="" />
-        <div class="layer">
-          <h3>Harshit Gupta</h3>
-        </div>
-      </div>
-      <div class="campus-col">
-        <img src="../hackathon/images/satwik.jpg" alt="" />
-        <div class="layer">
-          <h3>Satwik Shrivastava</h3>
-        </div>
-      </div>
-      <div class="campus-col">
-        <img src="../hackathon/images/harshitm.jpg" alt="" />
-        <div class="layer">
-          <h3>Harshit Mehndiratta</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ------------------testimonials----------------- -->
-  <section class="testimonials">
-    <h1>What our User Says</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="row">
-      <div class="testimonial-col">
-        <img src="images/user1.jpg" alt="">
-        <div>
-          <p>So easy and quick to use. Helpful reminders. Gives you all options of parking duration. Love it.</p>
-          <h3>Christine Berley</h3>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="far fa-star"></i>
-        </div>
-      </div>
-      <div class="testimonial-col">
-        <img src="images/user2.jpg" alt="">
-        <div>
-          <p>Fast and accurate, easy to use</p>
-          <h3>David Byer</h3>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- ----------------Call To Action----------------- -->
-
-  <section class="cta">
-    <h1>Are you a parking operator? <br> Would you like to promote your car parks and reach new customers?</h1>
-    <a class="hero-btn" href="">CONTACT US</a>
-  </section>
-
-
-
-
-  <!-- ------------footer----------------- -->
-
-  <section class="footer">
-    <h4>About Us</h4>
-    <p>Parking 24 allows drivers to find the closest parking to their destination, tells them how much it will cost and whether the space is available.... which means no more driving around looking for parking!</p>
-    <div class="icons">
-      <i class="fas fa-facebook"></i>
-      <i class="fas fa-twitter"></i>
-      <i class="fas fa-instagram"></i>
-      <i class="fas fa-linkedin"></i>
-    </div>
-    <p>Made By Team Fantastic4</p>
-  </section>
-
-
-
-  <!-- ---------JavaScript for toggle menu----------- -->
-  <script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showmenu() {
-      navLinks.style.right = "0";
-    }
-
-    function hidemenu() {
-      navLinks.style.right = "-200px";
-    }
-  </script>
-
-
-</body>
-
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <script src="login.js"></script>
+  </body>
 </html>
