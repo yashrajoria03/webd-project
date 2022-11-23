@@ -421,7 +421,7 @@ nav img {
 }
 .hero-btn:hover {
   border: 1px solid rgba(176, 224, 230, 0.347);
-  background: rgba(176, 224, 230, 0.347);
+  background: rgba(176, 224, 230, 0.463);
   transition: 1s;
 }
 nav .fas {
