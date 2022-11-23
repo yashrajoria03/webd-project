@@ -24,11 +24,17 @@ nav img {
 
 #username {
   border-radius: 10px;
-  padding: 2px;
+  border-color: white !important;
+  padding: 2px !important;
   opacity: 0.8;
-  backdrop-filter: blur(5px);
-  border-color: white;
-  width: 60px;
+  backdrop-filter: blur(5px) !important;
+  border: none !important;
+  /* width: 60px; */
+}
+
+#username:hover {
+  background-color: powderblue;
+  transition: 0.3s;
 }
 .logout {
   display: none;
@@ -65,7 +71,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background: #f44336;
+  background: white;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -374,7 +380,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background: lightblue;
+  background: powderblue;
   display: block;
   margin: auto;
   transition: 0.5s;
