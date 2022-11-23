@@ -12,15 +12,20 @@
   position: relative;
   background-size: cover;
 }
+.logo {
+  width: 80px;
+  height: 80px;
+}
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 2% 6%;
+  /* padding: 2% 6%; */
+  padding: 10px 10px;
   align-items: center;
 }
-nav img {
+/* nav img {
   width: 150px;
-}
+} */
 
 #username {
   border-radius: 10px;
@@ -341,7 +346,7 @@ h3 {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
-      rgba(4, 9, 30, 0.4) 0%,
+      rgba(4, 9, 30, 0.5) 0%,
       rgba(4, 9, 30, 0.6) 50%,
       rgba(4, 9, 30, 0.4) 100%
     ),
