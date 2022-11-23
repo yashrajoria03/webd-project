@@ -385,6 +385,9 @@ nav img {
   margin: auto;
   transition: 0.5s;
 }
+nonav::after{
+  visibility:hidden ;
+}
 .nav-links li:hover::after {
   width: 100%;
 }
