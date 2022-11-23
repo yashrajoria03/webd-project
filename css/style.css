@@ -108,8 +108,8 @@ nav img {
   cursor: pointer;
 }
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44;
+  border: 1px solid white;
+  background: powderblue;
   transition: 1s;
 }
 nav .fas {
@@ -420,8 +420,8 @@ nav img {
   cursor: pointer;
 }
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44;
+  border: 1px solid rgba(176, 224, 230, 0.347);
+  background: rgba(176, 224, 230, 0.347);
   transition: 1s;
 }
 nav .fas {
