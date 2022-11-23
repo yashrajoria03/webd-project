@@ -25,7 +25,7 @@ nav img {
 #username {
   border-radius: 10px;
   border-color: white !important;
-  padding: 2px !important;
+  padding: 2px 5px !important;
   opacity: 0.8;
   backdrop-filter: blur(5px) !important;
   border: none !important;
@@ -385,8 +385,8 @@ nav img {
   margin: auto;
   transition: 0.5s;
 }
-.nonav::after{
-  visibility : hidden ;
+.nonav::after {
+  visibility: hidden;
 }
 .nav-links li:hover::after {
   width: 100%;
@@ -480,7 +480,7 @@ p {
 }
 .course-col {
   flex-basis: 31%;
-  background-color: #fff3f3;
+  background-color: rgba(176, 224, 230, 0.363);
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
