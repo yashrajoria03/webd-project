@@ -271,7 +271,7 @@ h3 {
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background: #fff3f3;
+  background-color: #fff3f3;
   padding: 25px;
   cursor: pointer;
   display: flex;
@@ -582,7 +582,7 @@ h3 {
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background: #fff3f3;
+  background-color: rgba(176, 224, 230, 0.363);
   padding: 25px;
   cursor: pointer;
   display: flex;
@@ -815,6 +815,9 @@ h3 {
   color: #f44336;
   margin: 10px;
   margin-right: 30px;
+}
+.c-row{
+  padding: 5px;
 }
 .contact-col div p {
   padding: 0;
