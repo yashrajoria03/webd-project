@@ -79,6 +79,7 @@ h1 {
 }
 
 .form-container {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,4 +138,26 @@ input {
   color: rgb(255, 255, 255);
 
   box-shadow: none;
+}
+
+.headSection {
+  /* margin-left: 10px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headSection > select {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  backdrop-filter: blur(5px);
+}
+option {
+  background: black;
+  opacity: 0.4;
+  backdrop-filter: blur(5px);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); */
 }
