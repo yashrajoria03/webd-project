@@ -338,7 +338,7 @@ h3 {
       rgba(4, 9, 30, 0.6) 50%,
       rgba(4, 9, 30, 0.4) 100%
     ),
-    url(../images/img1.jpg);
+    url(https://images.pexels.com/photos/1004409/pexels-photo-1004409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-position: center;
   position: relative;
   background-size: cover;
